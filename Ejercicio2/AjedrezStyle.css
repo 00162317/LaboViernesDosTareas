@@ -1,0 +1,30 @@
+table{
+    border: 2px solid black;
+    margin: 10px auto;
+
+}
+#white{
+    background: white;
+    height: 100px;
+    width: 100px;
+}
+#black{
+    background: black;
+    height: 100px;
+    width: 100px;
+}
+
+#headers{
+    text-align: center;
+    color: orange;
+    margin: 10px;
+    border: 5px solid blue;
+    padding: 5px;
+}
+#divTd{
+    visibility: hidden;
+}
+td:hover > div{
+    visibility: visible;
+    background: red;
+}
